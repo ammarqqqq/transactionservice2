@@ -3,14 +3,14 @@ module.exports = function(){
         case 'test':
             return {
               'secret': '04050405',
-              'database': 'mongodb://localhost:27017/transaction_integration_test',
+              'database': 'mongodb://localhost:27013/transaction_integration_test',
               'logsDirectory': 'logs',
               'serviceName': 'transactionservice'
             };
         default:
             return {
               'secret': '04050405',
-              'database': 'mongodb://transactionmongo:27017/transaction',
+              'database': 'mongodb://transactionmongo:27013/transaction',
               'logsDirectory': 'logs',
               'serviceName': 'transactionservice'
             };
